@@ -1,0 +1,346 @@
+body{
+background: url('https://image.roku.com/blog/wp-content/uploads/2017/10/900NBATNT_Tweet_1200x675_NYC_op21.jpg')no-repeat;
+background-size:cover;
+font-family: Arial;
+color: white;
+}
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width:  200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color: green;
+}
+ul li ul li{
+    display: none;
+
+}
+ul li:hover ul li{
+    display: block;
+}
+.moveimage
+{
+    position:absolute;
+     top:25%;
+     left:25%;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+header h1{
+    position: center;
+    text-align: center;
+    margin-bottom: -60px;
+    transform: translate(3%, 30%);
+}
+<!--
+First Table
+-->
+.wp-table tr:nth-child(odd) {
+    background-color: Black;
+}
+
+.wp-table tr:nth-child(even) {
+    background-color: Black;
+}
+
+.wp-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.wp-table th:first-child,
+.wp-table td:first-child {
+    padding-left: 16px;
+
+}
+.wp-table tr{
+background:black;
+}
+.wp-table tr:hover{
+    color:blue;
+}
+.wp-table td,
+.wp-table th {
+    padding: 4px 4px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+.wp-table th {
+    font-weight: bold;
+
+}
+
+.wp-table {
+    margin-right: 0%;
+    margin-left: 0%;
+    font-size: 13px!important;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 30%;
+    display: table;
+     text-align: center;
+}
+.wp-table img{
+
+     display: block;
+        margin: 0 auto;
+}
+.JamesHarden{
+    margin-right: 20%;
+
+
+}
+<!--
+Second Table
+-->
+.wp-table2 tr:nth-child(odd) {
+    background-color: Black;
+}
+
+.wp-table2 tr:nth-child(even) {
+    background-color: Black;
+}
+
+.wp-table2 tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.wp-table2 th:first-child,
+.wp-table2 td:first-child {
+    padding-right: 16px;
+
+}
+.wp-table2 tr{
+background:black;
+}
+.wp-table2 tr:hover{
+    color:blue;
+}
+.wp-table2 td,
+.wp-table2 th {
+    padding: 4px 4px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: right`;
+}
+
+.wp-table2 th {
+    font-weight: bold;
+}
+
+.wp-table2 {
+    margin-right: 0%;
+    margin-left: 60%;
+    margin-top: -30%;
+    font-size: 13px!important;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 30%;
+    display: table;
+}
+.Image2{
+    margin-left: 45%;
+    margin-top: -15%;
+}
+header h1:hover
+{
+color: red;
+}
+.left-side{
+    display:flex;
+}
+
+<!--
+   Third Table
+   -->
+.wp-table3 tr:nth-child(odd) {
+    background-color: Black;
+}
+
+.wp-table3 tr:nth-child(even) {
+    background-color: Black;
+}
+
+.wp-table3 tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.wp-table3 th:first-child,
+.wp-table3 td:first-child {
+    padding-left: 16px;
+
+}
+.wp-table3 tr{
+background:black;
+}
+.wp-table3 tr:hover{
+    color:blue;
+}
+.wp-table3 td,
+.wp-table3 th {
+    padding: 4px 4px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+.wp-table3 th {
+    font-weight: bold;
+
+}
+
+.wp-table3 {
+    margin-right: 0%;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 13px!important;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 30%;
+    display: table;
+    text-align: center;
+}
+
+.Image3{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.nav-wrapper >.left-side > div{
+    margin-right: 20px;
+    font-size:0.9em;
+    text-transform: uppercase;
+}
+
+<!--
+Fourth Table
+-->
+
+.wp-table4 tr:nth-child(odd) {
+    background-color: Black;
+}
+
+.wp-table4 tr:nth-child(even) {
+    background-color: Black;
+}
+
+.wp-table4 tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.wp-table4 th:first-child,
+.wp-table4 td:first-child {
+    padding-right: 16px;
+
+}
+.wp-table4 tr{
+background:black;
+}
+.wp-table4 tr:hover{
+    color:blue;
+}
+.wp-table4 td,
+.wp-table4 th {
+    padding: 4px 4px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: right`;
+}
+
+.wp-table4 th {
+    font-weight: bold;
+}
+
+.wp-table4 {
+    margin-right: 0%;
+    margin-left: 70%;
+    margin-top: -15%;
+    font-size: 13px!important;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 30%;
+    display: table;
+}
+.Image4{
+   margin-top: -20%;
+    margin-right: 35%;
+}
+.Name4{
+    margin-top: -10%;
+    margin-right: 10%;
+}
+
+
+
+
+link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-link-wrapper a {
+    color: black;
+    text-decoration: none;
+
+}
+.nav-link-wrapper:hover {
+     border-bottom: 1px solid red;
+ }
+
+ .nav-link-wrapper a:hover {
+    color: red;
+ }
+.colorBtn{
+ margin-top: 25%;
+    margin-left: 35%;
+padding: 0.25rem 0.5rem;
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    color: #fefefe;
+    background: rgba(0,0,0,0.6);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+.colorBtn:hover{
+    background: rgb(0,0,0);
+}

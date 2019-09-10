@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        .container{
+        max-height: 800px;
+        max-width: 1300px;
+        margin: auto;
+        font-family: Arial;
+
+        }
+        .month{
+            margin-top: 5%;
+           text-align: center;
+           background: blue;
+           font-size: 3.5em;
+            letter-spacing: 1px;
+            color: white;
+            padding: 80px;
+            border: 1px solid skyblue;
+        }
+        table,th, tr{
+        width: 100%;
+        table-layout: fixed;
+        text-align: center;
+        font-size: 20px;
+        border-collapse: 5px;
+        border: 1px solid skyblue;
+        }
+        tr, th,td
+        {
+            padding: 15px;
+        }
+        th{
+            background: red;
+            color: white;
+        }
+        td
+        {
+            background: #3c8a4e;
+        }
+       .prev{
+            float: left;
+            margin-top: -10%;
+            margin-left: 10%;
+            list-style-type: none;
+        }
+        .next{
+        float: right;
+        margin-top: -10%;
+                    margin-right: 10%;
+        list-style-type: none;
+        }
+        .container .month{
+
+        }
+    </style>
+
+
+</head>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body onload="RenderDate()">
+
+<ul>
+    <li><a href="Website.html"> Home</a></li>
+</ul>
+<ul>
+    <li><a> Stats </a>
+        <ul>
+
+            <li><a> Leaders </a></li>
+            <li><a> Real Plus-Minus</a></li>
+
+        </ul>
+</ul>
+<ul>
+    <li><a> Teams </a>
+        <ul>
+
+            <li><a> Atlantic </a></li>
+            <li><a> Central </a></li>
+            <li><a> Southeast </a></li>
+            <li><a> Pacific </a></li>
+            <li><a> Southwest</a></li>
+            <li><a> Northwest </a></li>
+
+        </ul>
+</ul>
+`
+<ul>
+    <li style = "margin-top: -19px;"><a> Schedule </a></li>
+</ul>
+
+<ul>
+    <li style = "margin-top: -19px;"><a> Playoffs </a></li>
+</ul>
+
+<ul>
+    <li style = "margin-top: -19px;"><a> Scores </a></li>
+</ul>
+
+
+
+<div class = "container">
+    <div class="month">
+        <strong id = "Month"> June </strong>
+        <br>
+        <strong id = "date_str"></strong>
+    </div>
+    <li class="prev" onclick="moveDate('prev')" id="previous">&#10094;</li>
+    <li class="next" onclick="moveDate('next')" id="next">&#10095;</li>
+
+
+
+
+    <table class = "calendar"style = "margin-top: 40px;">
+        <tr>
+            <th> Sat </th>
+            <th> Sun </th>
+            <th> Mon </th>
+            <th> Tue </th>
+            <th> Wed</th>
+            <th> Thu </th>
+            <th> Fri </th>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>
+                <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/tor.png&amp;h=50" class="schedule-team-logo">Toronto @ GSW
+                <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&amp;h=50" class="schedule-team-logo">
+            </td>
+            <td> No Games Scheduled </td>
+            <td> <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/tor.png&amp;h=50" class="schedule-team-logo">
+                               <span> Toronto @ GSW </span>
+                <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&amp;h=50" class="schedule-team-logo"></td>
+        </tr>
+        <tr>
+            <td> No Games Scheduled</td>
+            <td> No Games Scheduled </td>
+            <td>
+                <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&amp;h=50" class="schedule-team-logo">
+                                                            GSW @ Toronto
+                <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/tor.png&amp;h=50" class="schedule-team-logo">
+            </td>
+            <td> No Games Scheduled </td>
+            <td class = "June-12th">12</td>
+            <td>13</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>30</td>
+
+        </tr>
+    </table>
+</div>
+<div class = "days">
+
+</div>
+
+
+
+
+
+
+<script type = "text/javascript" src = "script.js" > </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+</body>
+</html>
