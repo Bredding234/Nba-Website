@@ -65,6 +65,25 @@
     <li><a href="Scores.html"> Scores </a></li>
 </ul>
 <br><br><h1 style = "text-align: center;">Welcome to the NBA Website</h1>
+<form action="/action_page.php" method="post">
+  <div class="container">
+    <label for="uname" style = "text-align: center;"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw" style = "text-align: center;"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit" style="text-align: center; margin:0 auto;">Login</button>
+    <label>
+      <br><br> <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" >
+    <button type="button" class="cancelbtn">Cancel</button>
+    <br><br><span class="psw" style = "text-align: center;" >Forgot <a href="#">password?</a></span>
+  </div>
+</form>
 
 </body>
 </html>
