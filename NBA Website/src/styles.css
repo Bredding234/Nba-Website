@@ -344,3 +344,14 @@ padding: 0.25rem 0.5rem;
 .colorBtn:hover{
     background: rgb(0,0,0);
 }
+form
+{
+	text-align: center;
+}
+
+input
+{
+	
+	font-size: 14px;
+	
+}
