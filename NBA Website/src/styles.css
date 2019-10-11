@@ -4,6 +4,13 @@ background-size:cover;
 font-family: Arial;
 color: white;
 }
+body:hover{
+    background: url('https://www.gannett-cdn.com/presto/2019/09/28/USAT/6392f2ee-c65f-41e3-8d1a-92e628d0a646-lakers.JPG?width=660&height=440&fit=crop&format=pjpg&auto=webp');
+    transition: all 1s ease-in-out;
+    -webkit-background-size:cover;
+    background-size: cover;
+    height: 100vh;
+}
 /* Previous button inside month header */
 .month .prev {
   float: left;
